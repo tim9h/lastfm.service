@@ -55,6 +55,24 @@
 		</dependency>
 
 		<dependency>
+			<groupId>de.u-mass</groupId>
+			<artifactId>lastfm-java</artifactId>
+			<version>0.1.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>info.schnatterer.musicbrainzws2-java</groupId>
+			<artifactId>musicbrainzws2-java</artifactId>
+			<version>3.2.0</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.slf4j</groupId>
+					<artifactId>slf4j-jdk14</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
